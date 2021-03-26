@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(0, 0, 0);
+  scroll-behavior: auto;
+}
+
+.main {
+  width: 99%;
+  display: flex;
+  text-align: center;
+
+  justify-content: space-between;
+}
+
+h2 {
+  color: wheat;
+  text-transform: initial;
+  margin: 15px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+img {
+  width: 430px;
+  height: 550px;
+  margin: calc(10% / 7);
+  border: solid 1.5px;
+  transition: 0.19s;
+}
+div > div:hover img {
+  border-color: #f1ff5c;
+  transform: translateY(-1em);
+  cursor: pointer;
+  box-shadow: 5px 5px 2px 2px #f1ff5c;
+}
+
+div > div:hover h2 {
+  /* border-color: red; */
+  color: red;
+  border-bottom: 1px solid red;
+  /* box-shadow: 1px 1px red; */
+  text-shadow: 1px 1px 2px red;
+  text-transform: uppercase;
+}
+nav {
+  border-bottom: 2px solid #f1f1f1;
+
+  width: 30%;
+  margin: auto;
+  padding: 20px 20px;
+  font-size: large;
+}
